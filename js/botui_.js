@@ -122,7 +122,7 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "应为杰西每次都叫老白 Mr White "
+                content: "因为杰西每次都叫老白 Mr White "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
