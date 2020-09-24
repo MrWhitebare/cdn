@@ -26,11 +26,11 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 cungudafa"
+            content: "这里是 MrHeisenberg"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的女孩子~"
+                content: "一个喜欢梅花十三的老色批~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,32 +65,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "就读于重庆交通大学"
+                content: "就读于河北师范大学"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "是在计算机专业学物联网工程的程序媛"
+                    content: "是在地理信息科学的程序猿"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "将敲代码看成一种快乐"
+                        content: "将敲代码看成一种快乐，可是代码不爱我！QAQ"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主修 Java 和 Python,略知 linux,偶尔也搞 HTML/CSS/JavaScript/Spring"
+                            content: "主修 C# 和 Python,略知 Java,偶尔也搞 HTML/CSS/JavaScript"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "专业方向，物联网及智能家居(Internet of things)及机器视觉(machine version)"
+                                content: "专业方向，GIS程序设计，GIS数据处理"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢看韩剧和玩手游"
+                                    content: "喜欢看大仙和逛B站"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫cungudafa呢？🤔",
+                                            text: "为什么叫Mr Heisenberg呢？🤔",
                                             value: "why-cungudafa"
                                         }]
                                     }).then(function (a) {
@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "cungudafa是村姑大发的拼音，大发在韩语发音中时很厉害的意思。"
+                content: "Heisenberg 海森堡 就是绝命毒师中的老白 Walter White 是个有技术的狠人！"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么叫村姑呢？",
+                        text: "为什么要加Mr？",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "我的游戏名叫村姑,后来也有人叫我村姑学姐 "
+                content: "应为杰西每次都叫老白 Mr White "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "希望自己打游戏很厉害吧，哈哈哈"
+                    content: "老白自带威严"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm,csdn,github,都是cungudafa哦"
+                content: "emmmm,csblogs,github,都是MrHeisenberg哦"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,
