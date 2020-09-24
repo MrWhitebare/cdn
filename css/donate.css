@@ -99,10 +99,10 @@
   cursor: pointer;
 }
 #donateBox #AliPay {
-  background-image: url(https://cdn.jsdelivr.net/gh/MrWhitebare/cdn/img/reward/alipay.jpg);
+  background-image: url(/images/donate/alipay.svg);
 }
 #donateBox #WeChat {
-  background-image: url(https://cdn.jsdelivr.net/gh/MrWhitebare/cdn/img/reward/wechat.png);
+  background-image: url(/images/donate/wechat.svg);
 }
 #QRBox {
   position: relative;
