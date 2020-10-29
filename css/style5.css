@@ -1095,10 +1095,13 @@ table th {
 table tr:hover {
     background: #efefef; 
 }
-td.hljs-in-number{
+table tbody tr:nth-child(2n) {
+    background: rgba(158,188,226,0.12); 
+}
+td.hljs-ln-numbers{
 	border:none !important;
 }
-td.hljs-in-code{
+td.hljs-ln-code{
 	border:none !important;
 }
 body,
