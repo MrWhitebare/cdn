@@ -1077,7 +1077,7 @@ table {
     border: 1px solid #dedede; /*表格外边框设置*/
     margin: 15px auto; /*外边距*/
     border-collapse: collapse; /*使用单一线条的边框*/
-    empty-cells: show; /*单元格无内容依旧绘制边框*/
+    /*empty-cells: show;*/ /*单元格无内容依旧绘制边框*/
 }
 
 td,
