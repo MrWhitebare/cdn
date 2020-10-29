@@ -1104,6 +1104,11 @@ td.hljs-ln-numbers{
 td.hljs-ln-code{
 	border:none !important;
 }
+table.hljs-ln {
+    border-collapse: collapse;
+    border: none !important;
+    background: #000 !important;
+}
 body,
 button,
 input,
